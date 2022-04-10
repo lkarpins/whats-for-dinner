@@ -1,6 +1,9 @@
 # What's for Dinner?
 
-## Overview
+###By: [Lidia Karpinski](https://github.com/lkarpins)
+
+##Welcome to What’s for Dinner! 
+Are you hungry? Do you struggle with finding recipes? Is it challenging for you and your family to agree on a meal? Look no further! What’s for Dinner is a simple application that allows users to view a variety of side, main course, and dessert options. A special ‘Entire Meal Option’ quickly assembles a 3-course meal in no time. 
 
 What's for dinner? The ultimate question. You will be building an app that helps users choose a recipe and put together meals. 
 
