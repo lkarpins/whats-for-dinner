@@ -22,7 +22,7 @@ Welcome to What's for Dinner! Are you hungry? Do you struggle with finding recip
 # Technologies
 The technologies used in this project included HTML, CSS, and JavaScript. Dish options and imagery provided by Turing School of Software and Design. 
 
-Project spec & rubric found [here](https://frontend.turing.edu/projects/module-1/dinner.html). To view this deployed site, please visit file:///Users/lidiakarpinski/turing/1module/projects/whats-for-dinner/index.html. Images of project located below for your viewing pleasure: 
+Project spec & rubric found [here](https://frontend.turing.edu/projects/module-1/dinner.html). To view this deployed site, please visit [here](file:///Users/lidiakarpinski/turing/1module/projects/whats-for-dinner/index.html). Images of project located below for your viewing pleasure: 
 ![Screen Shot 2022-04-10 at 5 45 49 PM](https://user-images.githubusercontent.com/99596577/162641327-c63dfc0c-93a4-4169-b99f-c1d3d3725ded.png)
 ![Screen Shot 2022-04-10 at 5 47 11 PM](https://user-images.githubusercontent.com/99596577/162641336-309ce2dd-85a2-46bc-a121-e0a0a8c0d6c3.png)
 
