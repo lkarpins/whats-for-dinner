@@ -1,26 +1,42 @@
 # What's for Dinner?
 
-###By: [Lidia Karpinski](https://github.com/lkarpins)
+By: [Lidia Karpinski](https://github.com/lkarpins)
 
-##Welcome to What’s for Dinner! 
-Are you hungry? Do you struggle with finding recipes? Is it challenging for you and your family to agree on a meal? Look no further! What’s for Dinner is a simple application that allows users to view a variety of side, main course, and dessert options. A special ‘Entire Meal Option’ quickly assembles a 3-course meal in no time. 
+## Table of Contents: 
+* Introduction
+* Set Up
+* Technologies
+* Ideas for Future Features/Fixes
+* Acknowledgements 
 
-What's for dinner? The ultimate question. You will be building an app that helps users choose a recipe and put together meals. 
 
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
+# Introduction
+Welcome to What's for Dinner! Are you hungry? Do you struggle with finding recipes? Is it challenging for you and your household to agree on a meal? Look no further! What’s for Dinner is a simple application that allows users to view a variety of sides, main courses, and dessert options. A special ‘Entire Meal Option’ button quickly organizes a menu for a 3-course dinner in no time! 
 
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html). 
-
-## Learning Goals
-
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
-
-## Setup
-
+# Setup
 - Fork this project to your own Github account
 - Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
+- `cd` into the respository
+- In terminal, type 'open index.html' to view the project! 
+
+# Technologies
+The technologies used in this project included HTML, CSS, and JavaScript. Dish options and imagery provided by Turing School of Software and Design. 
+
+Project spec & rubric found [here](https://frontend.turing.edu/projects/module-1/dinner.html). To view this deployed site, please visit file:///Users/lidiakarpinski/turing/1module/projects/whats-for-dinner/index.html. Images of project located below for your viewing pleasure: 
+
+
+
+
+
+
+
+
+
+# Ideas for Future Features/Fixes
+Some additional functionality that could be added to this project include the following: 
+* Included recipes
+* Videos of recipe assembly
+* Dish ratings provided by users
+
+# Acknowledgements 
+A big thank you to Whitney Perricone, Eli Davidson, and Rachel Bock for their guidance, input, encouragement, and pep-talks! :) 
