@@ -1,14 +1,14 @@
 // query selectors
 var generatedMeals = document.querySelector('.generated-meals');
-var potImage = document.querySelector('.pot-image');
 var hiddenDishSuggestion = document.querySelector('.dish-suggestion-hidden');
-var sideRadioButton = document.querySelector('.side-option');
-var mainRadioButton = document.querySelector('.main-option');
+var potImage = document.querySelector('.pot-image');
+
 var dessertRadioButton = document.querySelector('.dessert-option');
 var entireMealRadioButton = document.querySelector('.entire-meal-option');
+var mainRadioButton = document.querySelector('.main-option');
+var sideRadioButton = document.querySelector('.side-option');
 
 var letsCookButton = document.querySelector('.lets-cook-button');
-
 
 // arrays
 var sideDishes = [
@@ -58,13 +58,13 @@ var desserts = [
 'Croissants',
 'Eclairs']
 
-
 // event listeners
 letsCookButton.addEventListener('click', displayMeal);
 sideRadioButton.addEventListener('click', randomizeSideDishes);
 mainRadioButton.addEventListener('click', randomizeMainDishes);
 dessertRadioButton.addEventListener('click', randomizeDesserts);
 entireMealRadioButton.addEventListener('click', randomizeEntireMeal);
+
 // functions and event handlers
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
@@ -73,26 +73,25 @@ function getRandomIndex(array) {
 function makeContent(fromArray){
   var index = getRandomIndex(fromArray);
   return fromArray[index];
-}
+};
 
 function hideCookPot() {
   event.preventDefault();
   potImage.classList.add("hidden");
   hiddenDishSuggestion.classList.remove("hidden");
   generatedMeals.classList.remove("hidden");
-
-}
+};
 
 function randomizeSideDishes() {
-  return makeContent(sideDishes)
+  return makeContent(sideDishes);
 };
 
 function randomizeMainDishes() {
-  return makeContent(mainDishes)
+  return makeContent(mainDishes);
 };
 
 function randomizeDesserts() {
-  return makeContent(desserts)
+  return makeContent(desserts);
 };
 
 function randomizeEntireMeal() {
@@ -118,5 +117,4 @@ function displayMeal() {
     generatedMeals.innerText = `${randomMainReturn} with a side of ${randomSideReturn} and ${randomDessertReturn} for dessert!`;
   }
   hideCookPot();
-
 }
